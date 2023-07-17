@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In & Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+        </nav>
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+        </form>
+    </header>
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class="fa-solid fa-fire"></i>Muhammad Moazzam<br> Khan</h2>
+            <div class="text-sci">
+                <h2>Welcome!<br><span>To Our New Website.</span></h2>
+                <p>It's My Project For CV. How
+                    Do You Feel When You saw My
+                    Website.</p>
+
+                <div class="social-icons">
+                    <a
+                        href="https://www.linkedin.com/in/muhammad-moazzam-khan-494845279/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B2%2FTc2Ax9RCmWjNM2Hc6RBg%3D%3D"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/moazzam.khan.7731"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/MuhammadMoazzamKhan"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:kmoazzamkhan1@gmail.com?"><i class="fa-sharp fa-solid fa-g"></i></a>
+                    <a href="https://wa.me/+923456078607"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Sign In</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="text" id="emailLog" required>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock" id="lockshow"></i></span>
+                        <input type="password" id="passwordLog" required>
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forget">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forget password?</a>
+                    </div>
+                    <button type="submit" class="btn" id="btnLog">Sign In</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Sign Up</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" required id="nameSign">
+                        <label>Name</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="text" required id="emailSign">
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock" id="lockshow1"></i></span>
+                        <input type="password" required id="passwordSign">
+                        <label>Password</label>
+                    </div>
+
+                    <div class="remember-forget">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn" id="btnSign">Sign In</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="firsebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.12/sweetalert2.all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shosha{
+    margin: auto !important;
+    background-color: transparent;
+    width: 50%;
+    height: 91vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.Sign-Widht{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
